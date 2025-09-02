@@ -4,9 +4,10 @@ let conexao = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
+    database: "TREINAMENTO",
 })
 
-con.connect(function (error) {
+conexao.connect(function (error) {
     if (error) {
         throw console.log("Erro na conexão, mensagem: " + error)
     }
