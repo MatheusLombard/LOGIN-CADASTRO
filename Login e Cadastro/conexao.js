@@ -14,6 +14,6 @@ conexao.connect(function (error) {
     console.log("Conectado ao banco de dados")
 
 })
-
+//teste
 
 module.export = conexao
