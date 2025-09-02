@@ -15,6 +15,5 @@ conexao.connect(function (error) {
 
 })
 
-//teste
 
 module.export = conexao
