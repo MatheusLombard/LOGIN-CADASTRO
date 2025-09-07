@@ -1,6 +1,0 @@
-
-
-CREATE TABLE Usuarios (
-    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    Nome VARCHAR(100)
-);
