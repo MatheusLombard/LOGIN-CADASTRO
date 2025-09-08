@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", serif;
+}
+
+body {
+  background-color: whitesmoke;
+  transition: 0.5s;
+  height: 100%;
+}
+
+.login {
+  background-color: #bbdce5;
+  box-shadow: 5px 6px 8px #afafaf;
+  border-radius: 20px;
+  border: none;
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 20px 30px 20px 30px;
+  transition: 0.5s;
+}
+
+.login h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+
+input {
+  width: 80%;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #eceedf;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+}
+
+.login-botao {
+  width: 40%;
+  border: none;
+  background-color: #d9c4b0;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  transition: 0.5s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.login-botao:hover {
+  background-color: #cfab8d;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  gap: 8px;
+}
+
+form button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}

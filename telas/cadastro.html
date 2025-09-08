@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <div class="login">
+      <h1>Cadastro</h1>
+      <form id="form-cadastro">
+        <input type="text" placeholder="Nome" class="login-input" id="nome" />
+        <input
+          type="text"
+          placeholder="E-mail"
+          class="login-input"
+          id="email"
+        />
+        <input type="text" placeholder="CPF" class="login-input" id="cpf" />
+        <input
+          type="tel"
+          placeholder="Telefone"
+          class="login-input"
+          id="telefone"
+        />
+        <input
+          type="password"
+          placeholder="Senha"
+          class="login-input"
+          id="senha"
+        />
+        <input
+          type="password"
+          placeholder="Confirme Senha"
+          class="login-input"
+          id="confirmaSenha"
+        />
+
+        <div class="botao">
+          <button
+            type="submit"
+            class="login-botao"
+            onclick="window.location.href='cadastroEndereco.html'"
+          >
+            Cadastrar
+          </button>
+          <a href="login.html" class="login-botao">Login</a>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="/scripts/scriptCadastro.js"></script>
+</html>
