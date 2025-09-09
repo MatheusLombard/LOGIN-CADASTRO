@@ -1,10 +1,12 @@
-let mysql = require('mysql')
+let mysql = require('mysql2')
 
 let conexao = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
     database: "TREINAMENTO",
+    multipleStatements: "true"
+    
 })
 
 conexao.connect(function (error) {
